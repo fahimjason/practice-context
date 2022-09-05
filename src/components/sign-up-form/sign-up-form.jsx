@@ -4,7 +4,7 @@ import FormInput from '../form-input/form-input.component';
 import Button from '../button/button.component';
 import { UserContext } from "../../contexts/user.context";
 
-import { createAuthUserWithEmailAndPassword, createUserDocumentFromAuth, signInWithGooglePopup } from '../../utils/firebase/firebase.utils';
+import { createAuthUserWithEmailAndPassword, createUserDocumentFromAuth } from '../../utils/firebase/firebase.utils';
 
 import './sign-up-form.styles.scss';
 
